@@ -1,0 +1,92 @@
+.Resolucion {
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilos para pantallas de computadora */
+@media (min-width: 768px) {
+    /* Mostrar el HTML de Compu */
+    .Computadora {
+        display: block;
+    }
+    /* Ocultar el HTML de Celu */
+    .Celular {
+        display: none;
+    }
+}
+/* Estilos para pantallas de celular */
+@media (max-width: 767px) {
+    /* Mostrar el HTML de Celu */
+    .Celular {
+        display: block;
+    }
+    /* Ocultar el HTML de Compu */
+    .Computadora {
+        display: none;
+    }
+}
+
+@font-face {
+    font-family: 'sourcesanspro';
+    font-style: italic;
+    font-weight: 400;
+    font-display: block;
+    src: url(https://design.penpot.app/fonts/sourcesanspro-italic.woff) format('woff');
+}
+
+.rect-titulo-Compu {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 1400px;
+    height: 100px;
+    background: #34345C;
+}
+
+.titulo-Compu {
+    position: absolute;
+    top: 15px;
+    left: 250px;
+    width: 800px;
+    color: #FFF;
+    font-size: 60px;
+    font-family: 'sourcesanspro';
+    font-style: italic;
+}
+
+/* Footer */
+.footer-Compu {
+    position: absolute;
+    right: 0px;
+    top: 780px;
+    width: 1400px;
+    height: 75px;
+    background: #34345C;
+}
+
+.UADE_Compu {
+    position: absolute;
+    left: 558px;
+    top: 790px;
+    width: 165px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.foto-personal_Compu {
+    position: absolute;
+    left: 54px;
+    top: 170px;
+    width: 390px;
+    height: 540px;
+    border-radius: 5px;
+}
+
+.texto_Compu {
+    position: absolute;
+    left: 504px;
+    top: 182px;
+    width: 735px;
+    height: 397px;
+    text-align: left;
+}
