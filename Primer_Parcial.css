@@ -67,10 +67,10 @@
 .texto_Compu {
     position: absolute;
     left: 504px;
-    top: 220px;
+    top: 120px;
     width: 735px;
-    height: 397px;
     text-align: left;
+    font-size: 25px;
 }
 
 .UADE_Compu {
